@@ -14,9 +14,17 @@
 //   console.log("The button was clicked");
 // }
 
-function Sort() {
-  console.log(42);
+let lapsCompleted = 0
 
+function incrementLap() {
+  lapsCompleted = lapsCompleted + 1
 }
 
-Sort()
+incrementLap()
+incrementLap()
+incrementLap()
+
+
+
+
+console.log(lapsCompleted);
