@@ -3,13 +3,20 @@
 // let firstBatch = 5
 // let secondBatch = 7
 
-// let count = firstBatch + secondBatch
+// let count = 5
 
+// count = count + 1
 // console.log(count);
 
-let myAge = 40
-let humanDogRatio = 7
+// let count = 0
 
-let myDogAge = myAge * humanDogRatio
+// function increment() {
+//   console.log("The button was clicked");
+// }
 
-console.log(myDogAge);
+function Sort() {
+  console.log(42);
+
+}
+
+Sort()
