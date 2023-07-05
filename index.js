@@ -1,30 +1,12 @@
-// document.getElementById("count-el").innerText = 5
 
-// let firstBatch = 5
-// let secondBatch = 7
+let countEl = document.getElementById("count-el")
 
-// let count = 5
+console.log(countEl);
+let count = 0
 
-// count = count + 1
-// console.log(count);
-
-// let count = 0
-
-// function increment() {
-//   console.log("The button was clicked");
-// }
-
-let lapsCompleted = 0
-
-function incrementLap() {
-  lapsCompleted = lapsCompleted + 1
+function increment() {
+  count = count + 1
+  countEl.innerText = count
 }
 
-incrementLap()
-incrementLap()
-incrementLap()
-
-
-
-
-console.log(lapsCompleted);
+// increment()
