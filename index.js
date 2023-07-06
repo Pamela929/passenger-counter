@@ -9,4 +9,6 @@ function increment() {
   countEl.innerText = count
 }
 
-// increment()
+function save() {
+  console.log(count);
+}
